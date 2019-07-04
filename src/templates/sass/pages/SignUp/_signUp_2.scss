@@ -1,0 +1,54 @@
+.signInForm__title__dark{
+  color: #01134E;
+}
+.termsOfService{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.termsOfService__checkBox{
+  padding: 4px;
+  background: rgba(245, 247, 250, 0.5);
+  border: 2px solid #F2F2F2;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 12px;
+}
+.termsOfService__title{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #222428;
+}
+.termsOfService__policy{
+  color: #2a2aa2;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.formInput__compliteAccaunt{
+  margin-bottom: 33px;
+  margin-top: 21px;
+}
+.progressBar{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+.progressBar span{
+  flex-basis: 32%;
+  height: 6px;
+  background: #FF6359;
+  border-radius: 10px;
+}
+.topLineForm__compliteAccaunt{
+  margin-bottom: 41px;
+}
+.signInForm__paddindSmall{
+  padding-bottom: 78px;
+}
