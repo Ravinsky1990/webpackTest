@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <title>Profile</title>
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="logo">
+      <a href="#">
+        <img src="../../img/logo_profile.svg" alt="logo">
+      </a>
+    </div>
+    <nav class="sidebar__navigation">
+        <a href="#" class="sidebar__link">
+            <img src="../../img/search.svg" alt="search">
+            <span class="sidebar__vertical-marker"></span>
+        </a>
+        <a href="#" class="sidebar__link">
+            <img src="../../img/my_profile.svg" alt="myprofile">
+            <span class="sidebar__vertical-marker sidebar__vertical-marker_active"></span>
+        </a>
+        <a href="#" class="sidebar__link">
+            <img src="../../img/messages.svg" alt="message">
+            <span class="sidebar__vertical-marker"></span>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img src="../../img/calendar.svg" alt="calrndar">
+          <span class="sidebar__vertical-marker"></span>
+      </a>
+    </nav>
+</aside>
+<header class="top-line">
+    <ul class="top-line__rout">
+        <li class="top-line__route-list-item">
+          <a href="#" class="top-line__rout-link">Home</a>
+          <img class="top-line__shevron top-line__shevron_visible"src="../../img/shevron-right.svg"alt="shevron">
+        </li>
+        <li class="top-line__route-list-item">
+          <a href="#" class="top-line__rout-link">My profile</a>
+          <img class="top-line__shevron" src="../../img/shevron-right.svg" alt="shevron">
+        </li>
+    </ul>
+    <div class="current-user">
+        <span class="current-user__name">Faruh Bernandez</span>
+        <a href="#">
+          <img src="../../img/shevron-dawn.svg" alt="shevron">
+        </a>
+    </header>
+    <section class="Info">
+      <div class="tabs">
+        <div class="tabs__personal tabsBorderBlu">PERSONAL INFORMATION</div>
+        <div class="tabs_account tabsGrey">ACCOUNT INFORMATION</div>
+      </div>
+      <div class="personalInformation">
+        <div class="profileFoto">
+          <img src="../../img/Faruh.png" alt="profile Foto" class="profileFoto__img">
+          <a href="#" class="profileFoto__changeLink">
+            <img src="../../img/pen.svg" alt="pen">
+            <span>Change photo</span>
+          </a>
+        </div>
+        <div class="content_1">
+          <div class="firstName">
+            <label>first name</label>
+            <input type="text" placeholder="first name" class="formInput formInput_personalInfo">
+          </div>
+          <div class="title formInput_shevron">
+            <label for="">title</label>
+            <input type="text" placeholder="Mr" class="formInput formInput_personalInfo">
+          </div>
+          <div class="country formInput_shevron">
+            <img src="../../img/map.svg" class="formInput_map">
+            <label for="">Country</label>
+            <input type="text" class="formInput formInput_personalInfo">
+          </div>
+        </div>
+        <div class="content_2">
+          <div class="lastName">
+              <label>last name</label>
+              <input type="text" placeholder="last name" class="formInput formInput_personalInfo">
+          </div>
+          <div class="mobileFone">
+            <label for="">mobile fone</label>
+            <div class="selectCountryCode">
+              <img src="../../img/shevron-dawn.svg" alt="" class="selectCountryCode_imgShevron">
+              <img src="../../img/flag.svg" alt="flag" class="selectCountryCode_img">
+              <input type="text" class="formInput formInput_personalInfo formInput__SelectCountry">
+              <input type="text" placeholder="+65" class="formInput formInput_personalInfo">
+            </div>
+          <div class="company">
+              <label>last name</label>
+              <input type="text" placeholder="last name" class="formInput formInput_personalInfo">
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+</html>

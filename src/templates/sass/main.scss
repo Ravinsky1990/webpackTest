@@ -53,6 +53,7 @@ table {
 /* body */
 body{
   background-color:#F9FAFC;
+  height: 100vh;
 }
 a{
   text-decoration: none
@@ -169,9 +170,10 @@ a{
 }
 
 /* Eclipse */
-/* .eclipse{
-
-} */
+.eclipse{
+  background-image: url("../../img/bg.svg");
+  background-position: center;
+}
 
 /* modificators */
 .formInput:focus{
@@ -183,6 +185,6 @@ a{
 @import "./pages/SignIn/fogotPass";
 @import "./pages/SignIn/forgotPass2";
 @import "./pages/SignIn/resetPass";
-
 @import "./pages/SignUp/singUp_1";
 @import "./pages/SignUp/signUp_2";
+@import "./pages/Profile/profile"

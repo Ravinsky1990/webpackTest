@@ -1,0 +1,272 @@
+/* logo */
+.logo{
+  display: flex;
+  justify-content: center;
+}
+/*sidebar*/
+.sidebar{
+  position: fixed;
+  width: 80px;
+  height: 100vh;
+  padding-top: 18px;
+  background-color: #01134E;
+}
+.sidebar__navigation{
+  margin-top: 86px;
+}
+.sidebar__link{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  position: relative;
+}
+
+.sidebar__num-marker{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  background-color:#2A74DB;
+  visibility: hidden;
+  border-radius: 50%;
+  top: -7px;
+  left: 42px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+.sidebar__vertical-marker{
+  width: 4px;
+  height: 48px;
+  background-color:#0AD69C;
+  position: absolute;
+  left: 0;
+  top: -78%;
+  visibility: hidden;
+}
+.sidebar__num-marker_active{
+  visibility: visible;
+}
+.sidebar__vertical-marker_active{
+  visibility: visible;
+}
+/* top-line */
+.top-line{
+  display: flex;
+  padding-left: 120px;;
+  padding-right: 40px;
+  height: 62px;
+  background-color: #fff;
+  justify-content: space-between;
+}
+.top-line__route-list-item{
+  display: inline-block;
+  margin-right: 12px;
+}
+.top-line__rout{
+  display: flex;
+  align-items: center
+}
+.top-line__rout-link{
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #252F48;
+  margin-right: 13px;
+}
+.top-line__shevron{
+  visibility: hidden;
+}
+.top-line__shevron_visible{
+  visibility: visible
+}
+
+.current-user{
+  display: flex;
+  align-items: center;
+}
+.current-user__image{
+  margin-right: 9px;
+}
+.current-user__name{
+  margin-right: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #252F48;
+}
+/* Personal info */
+
+.Info{
+  margin-left: 122px;
+  margin-top: 42px;
+  /* display: flex; */
+  max-width:1150px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 30px rgba(153, 163, 174, 0.06);
+  padding-left: 60px;
+  padding-top: 57px;
+  min-height: 460px;
+}
+
+.tabs{
+  display: flex;
+  width: 100%;
+}
+.tabs__personal,.tabs_account{
+  /* border-bottom: 2px solid #2A74DB; */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #01134E;
+  padding-bottom: 19px;
+  text-align: center;
+  flex-basis: 400px;
+  cursor: pointer;
+}
+.tabsBorderBlu{
+  border-bottom: 2px solid #2A74DB;
+}
+.tabsGrey{
+  border-bottom:2px solid #E9E9E9;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #CCD0DC;
+}
+.personalInformation{
+  display: flex;
+  margin-top: 50px;
+}
+.profileFoto__img{
+  width: 134px;
+  height: 136px;
+  display: block;
+  margin-bottom: 7px;
+}
+.profileFoto{
+  text-align: center;
+  margin-right: 40px;
+}
+.profileFoto__changeLink{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #35373B;
+}
+.personalInformation div:nth-child(2),.personalInformation div:nth-child(3){
+  flex-basis: 280px;
+}
+label{
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #546087;
+}
+.formInput_personalInfo{
+  margin-top: 4px;
+}
+.title{
+  margin-top: 29px;
+  position: relative;
+}
+.formInput_shevron::after{
+  content:"";
+  width: 10px;
+  height: 6px;
+  background-image:url("../../img/shevron-dawn.svg");
+  position: absolute;
+  right: 13px;
+  bottom: 17px;
+  cursor: pointer;
+}
+.country{
+  position: relative;
+  margin-top: 29px;
+}
+.formInput_map{
+  position: absolute;
+  cursor: pointer;
+  bottom: 13px;
+  left: 14px;
+  z-index: 2;
+}
+.mobileFone{
+  margin-top: 29px;
+}
+.selectCountryCode{
+  display: flex;
+  position: relative;
+}
+.formInput__SelectCountry{
+  flex-basis: 88px;
+  margin-right: 6px;
+}
+.selectCountryCode_img{
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  left: 13px;
+  top: 15px;
+}
+.selectCountryCode_imgShevron{
+  position: absolute;
+  z-index: 2;
+  left: 48px;
+  bottom: 19px;
+}
+.company{
+  margin-top: 29px;
+}
+.content_1{
+  margin-right: 33px;
+} 
+
+.accountInfo{
+  display: flex;
+  margin-top: 48px;;
+}
+.userName{
+  margin-right: 33px;
+}
+.userName, .userEmail{
+  flex-basis: 280px;
+}
+.changePass{
+  margin-top: 39px;
+  text-align: center;
+}
+.changePass span{
+  margin-right: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #01134E;
+}

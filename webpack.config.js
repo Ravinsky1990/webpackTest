@@ -77,6 +77,14 @@ module.exports = {
       filename: 'Sign_up_2.html',
       template: './src/templates/njk/Sign_up_2.njk'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'profile_1.html',
+      template: './src/templates/njk/profile_1.njk'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'profile_2.html',
+      template: './src/templates/njk/profile_2.njk'
+    }),
   ],
   devServer:{
     contentBase: path.join(__dirname, 'dist'),
